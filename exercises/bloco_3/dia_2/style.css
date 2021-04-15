@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
 
-    /* body{
+    body{
         background-color: pink;
         font-size: 16px;
         font-style: italic;
@@ -45,17 +38,4 @@
 
     #Ver{
         color: red;
-        } */
-
-    </style>
-  </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
-    <p class="style">Qual é a sua cor favorita?</p>
-    <ul class="style">
-      <li id="Ama">Amarelo</li>
-      <li id="Ver">Vermelho</li>
-      <li id="Mar">Marrom</li>
-    </ul>
-  </body>
-</html>
+        }
