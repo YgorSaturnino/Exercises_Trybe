@@ -12,10 +12,61 @@
 ol{
     background-color: yellow;   
 }
-ol li:nth-child(2n){
+ol li:nth-of-type(2n){
     color: green;
 }
 
 ol li:nth-child(2), ol li:nth-child(3), ol li:nth-child(5){
     text-transform: uppercase;
+}
+
+h1, h3{
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+
+li[title]{
+    background-color: pink;
+}
+
+ul.ling li:nth-child(1), ul.ling li:nth-child(2), ul.ling li:nth-child(3)  {
+    color: blue;
+}
+
+ul.lnk li:nth-child(1) a:hover{
+    font-weight: bold;
+    color: orange;
+}
+
+ul.lnk li:nth-child(2) a:hover{
+    font-weight: bold;
+    color: green;
+}
+
+ul.lnk li:nth-child(3) a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+ul.lnk li:nth-child(4) a:hover{
+    font-weight: bold;
+    color: yellow;
+}
+
+ul.lnk li:nth-child(5) a:hover{
+    font-weight: bold;
+    color: darkgreen;
 }
