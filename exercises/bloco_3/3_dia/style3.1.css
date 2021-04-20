@@ -1,0 +1,38 @@
+body{
+    background-color: #d4cfcf;
+}
+
+div:hover{
+    border: 5px solid black;
+    margin-right: 900px;
+}
+
+div:nth-child(odd){
+   font-style: italic;
+}
+
+div:nth-child(3){
+    background-color: red;
+    color: purple;
+}
+
+div:nth-child(4){
+    background-color: green;
+    color: yellow;
+}
+
+div:nth-child(5){
+    padding: 2px;
+    background-color: blue;
+    color: orange;
+}
+
+div:nth-child(6){
+    background-color: darkslategrey;
+    color: white;
+}
+
+div:nth-child(7){
+    background-color: fuchsia;
+    color: brown;
+}
