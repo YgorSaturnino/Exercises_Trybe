@@ -98,5 +98,3 @@ switch (piece){
         console.log("This isn't a chess piece");
         break;
 }
-
-//Percent note
