@@ -4,7 +4,7 @@ let b;
 //Adição
 console.log(a + b);
 
-//Subtraçãpo
+//Subtração
 console.log(a - b);
 
 //Multiplicação
