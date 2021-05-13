@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercícios 6.1 e 6.2</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="GET">
+      <fieldset>
+        <label for="name">Name
+          <input type="text" name="Name" id="name" placeholder="Digite seu nome completo" required maxlength="40"></label>
+        <label for="email">Email
+          <input type="email" name="Email" id="email" placeholder="Digite seu email" required  maxlength="50"></label>
+        <label for="cpf">CPF
+          <input type="text" name="CPF" id="cpf" placeholder="Digite seu CPF" required maxlength="11"></label>
+        <label for="endereco">Endereço
+          <input type="text" name="Endereço" id="endereco" placeholder="Digite seu endereço" required maxlength="200"></label>
+        <label for="city">Cidade
+          <input type="text" name="Cidade" id="city" placeholder="Digite sua cidade" required maxlength="28"></label>
+        <label for="state">Estado
+          <select name="Estado" id="state" required></select></label>
+        <label for="type">Tipo de moradia:
+          <label class="types" for="house"><input type="radio" name="type" id="house">Casa</label>
+          <label class="types" for="apto"><input type="radio" name="type" id="apto">Apartamento</label>
+        </label>
+        </fieldset>
+        <fieldset>
+            
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
