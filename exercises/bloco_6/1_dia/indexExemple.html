@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="GET" enctype="multipart/form-data">
+        <label for="email">Nome de usuário:
+            <input type="text" name="name" id="name" required placeholder="Digite seu nome">
+          </label><br>
+        <label for="email">Email do usuário:
+          <input type="email" name="email" id="email" required autocomplete="off" autofocus placeholder="Digite um email">
+        </label><br>
+        <label for="senha">Senha:
+          <input type="password" name="password" id="senha" required placeholder="Digite aqui sua senha">
+        </label>
+        <br>
+        <label for="">Estado onde você mora:
+            <select name="estado" id="input-estado">
+                <option value="none" selected> Estado</option>
+                <option value="sp">São Paulo</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="ap">Amapá</option>
+                <option value="rs">Rio Grande do Sul</option>
+            </select>
+        </label>
+        <br>
+        <p>Selecione sua foto</p>
+        <input type="file" name="foto" id="foto-perfil">
+        <br>
+        <label for="lembrar">
+          <input type="checkbox" name="checkbox" id="lembrar">Lembre-me.
+        </label>
+    </form>
+    <br><br>
+    <button type="submit" name="button-entrar">Entrar</button>
+</body>
+</html>

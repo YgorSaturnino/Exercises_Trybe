@@ -1,0 +1,18 @@
+body {
+    margin: 10px;
+    text-align: center;
+}
+
+fieldset {
+    width: 350px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+.types {
+    display: inline;
+}
