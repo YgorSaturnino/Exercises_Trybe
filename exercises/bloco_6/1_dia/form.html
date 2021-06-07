@@ -29,8 +29,12 @@
         </label>
         </fieldset>
         <fieldset>
-            
+         <label for="curriculo">Resumo do cúrriculo:<textarea name="Curriculo" id="curriculo" cols="30" rows="10" required maxlength="1000"></textarea></label>
+         <label for="cargo">Cargo: <input type="text" name="Cargo" id="cargo" required maxlength="40"></label>
+         <label for="description">Descrição do cargo: <textarea name="Descrição do cargo" id="description" cols="30" rows="10" required></textarea></label>
+         <label for="dateinittial">Data de início: <input type="date" name="Data de inicio" id="dateinittial" required min="1970-01-01" max="2021-05-01"></label>
         </fieldset>
+        <button type="submit">Enviar</button>
     </form>
     <script src="script.js"></script>
 </body>
